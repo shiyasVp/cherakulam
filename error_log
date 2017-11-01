@@ -1,0 +1,2 @@
+[27-Oct-2017 19:16:18 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
+[27-Oct-2017 19:19:45 UTC] The WC_Cart::get_cart_url function is deprecated since version 2.5. Replace with wc_get_cart_url.
