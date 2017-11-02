@@ -172,7 +172,7 @@ if ( !function_exists( 'maxstore_breadcrumb' ) ) :
 			// no need for breadcrumbs in homepage
 		} else {
 			echo '<div id="breadcrumbs" >';
-			echo '<div class="breadcrumbs-inner text-right">';
+			echo '<div class="breadcrumbs-inner">';
 
 			// main breadcrumbs lead to homepage
 

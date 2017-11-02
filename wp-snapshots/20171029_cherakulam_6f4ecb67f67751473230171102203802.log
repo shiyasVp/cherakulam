@@ -1,0 +1,42 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 2017-11-02 20:40:34
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.26
+WORDPRESS:	4.8.3
+PHP INFO:	7.0.15 | SAPI: apache2handler
+SERVER:		Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.15 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 24MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+FILTERED: [] 
+RESPONSE: Ran from C:/xampp/mysql/bin/mysqldump.exe 
+TABLES: total:39 | filtered:0 | create:39 
+SQL CREATED: 20171029_cherakulam_6f4ecb67f67751473230171102203802_database.sql 
+SQL FILE SIZE: 1.01MB (1061569) 
+SQL FILE TIME: 2017-11-02 20:40:35 
+SQL RUNTIME: 0.95 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  C:/xampp/htdocs/cherakulam 
+ARCHIVE FILE: 20171029_cherakulam_6f4ecb67f67751473230171102203802_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	208.32MB 
+STATS:	Dirs 912 | Files 10,225 
+SQL ADDED: 20171029_cherakulam_6f4ecb67f67751473230171102203802_database.sql 

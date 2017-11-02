@@ -40,11 +40,11 @@
 	<div class="header-section header-alt header-alt-2 row cust-width" >
 		<?php // Site title/logo ?>
 		<header id="site-header" class="col-sm-4 col-md-12 hidden-xs rsrc-header text-left" role="banner"> 
-				<div class="rsrc-header-img" style="display: inline-block;float: left;">
+				<div class="rsrc-header-img" style="display: inline-block;float: left;width:20%;">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( get_theme_mod( 'header-logo' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a>
 				</div>
-	            <div class="rsrc-header-text" style="float: right;display: inline-block;">
-	                <<?php echo $heading ?> class="site-title" style="text-align:right;" ><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?></a></<?php echo $heading ?>>
+	            <div class="rsrc-header-text" style="float: right;text-align:right;display: inline-block;width:80%;">
+	                <<?php echo $heading ?> class="site-title" ><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?></a></<?php echo $heading ?>>
 	                <<?php echo $desc ?> class="site-desc" ><?php esc_attr( bloginfo( 'description' ) ); ?></<?php echo $desc ?>>
 				</div>
 				<div class="rsrc-top-menu row cust-width" >
@@ -81,6 +81,9 @@
 						);
 						?>
 					</nav>
+				</div>
+				<div class="header-wholesale-banner">
+						<span>FOR WHOLESALE PURCHASE</span>
 				</div>
 		</header>
 		<!-- <?php if ( function_exists( 'maxstore_header_cart' ) ) { ?> 
